@@ -26,8 +26,7 @@ The authors of NCF actually published [a nice implementation](https://github.com
 * ratings.dat
 > UserID::MovieID::Rating::Timestamp
 >> 1::1193::5::978300760
->> 1::661::3::978302109
->> 1::914::3::978301968
+
 
 
 - UserIDs range between 1 and 6040
