@@ -9,13 +9,13 @@ The authors of NCF actually published [a nice implementation](https://github.com
 [The Movielens 1M Dataset](http://grouplens.org/datasets/movielens/1m/) is used to test the repo.
 
 * movies.dat 
-** MovieID::Title::Genres
+-  MovieID::Title::Genres
 
 * users.dat
-** UserID::Gender::Age::Occupation::Zip-code
+- UserID::Gender::Age::Occupation::Zip-code
 
 * ratings.dat
-** UserID::MovieID::Rating::Timestamp
+- UserID::MovieID::Rating::Timestamp
 
 
 ## Files
