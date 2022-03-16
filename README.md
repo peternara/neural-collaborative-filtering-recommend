@@ -8,6 +8,16 @@ The authors of NCF actually published [a nice implementation](https://github.com
 ## Dataset
 [The Movielens 1M Dataset](http://grouplens.org/datasets/movielens/1m/) is used to test the repo.
 
+* movies.dat 
+** MovieID::Title::Genres
+
+* users.dat
+** UserID::Gender::Age::Occupation::Zip-code
+
+* ratings.dat
+** UserID::MovieID::Rating::Timestamp
+
+
 ## Files
 
 > `data.py`: prepare train/test dataset
