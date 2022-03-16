@@ -28,7 +28,7 @@ The authors of NCF actually published [a nice implementation](https://github.com
 >> 1::1193::5::978300760
 >> 1::661::3::978302109
 >> 1::914::3::978301968
->> 1::3408::4::978300275
+
 
 - UserIDs range between 1 and 6040
 - MovieIDs range between 1 and 3952
