@@ -10,13 +10,31 @@ The authors of NCF actually published [a nice implementation](https://github.com
 
 * movies.dat 
 >  MovieID::Title::Genres
+>> 1::Toy Story (1995)::Animation|Children's|Comedy
+>> 2::Jumanji (1995)::Adventure|Children's|Fantasy
+>> 3::Grumpier Old Men (1995)::Comedy|Romance
+>> 4::Waiting to Exhale (1995)::Comedy|Drama
 
 * users.dat
 > UserID::Gender::Age::Occupation::Zip-code
+> ex)
+>> 1::F::1::10::48067
+>> 2::M::56::16::70072
+>> 3::M::25::15::55117
+>> 4::M::45::7::02460 
 
 * ratings.dat
 > UserID::MovieID::Rating::Timestamp
+>> 1::1193::5::978300760
+>> 1::661::3::978302109
+>> 1::914::3::978301968
+>> 1::3408::4::978300275
 
+- UserIDs range between 1 and 6040
+- MovieIDs range between 1 and 3952
+- Ratings are made on a 5-star scale (whole-star ratings only)
+- Timestamp is represented in seconds since the epoch as returned by time(2)
+- Each user has at least 20 ratings
 
 ## Files
 
